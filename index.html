@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <style>
+        .body{
+            text-align: center;
+            background-color:rgb(198, 99, 170);
+            padding: 50px;
+            
+        }
+        h2{
+            text-align: center;
+        }
+        .inp{
+            margin: 5px;
+            width: 150px;
+            height: 20px;
+        }
+        .lb{
+            font-size: 20px;
+            color:black;
+        }
+        body{
+            padding: 150px 450px;
+        }
+    </style>
+</head>
+<body>
+   
+    <h2>Calculator</h2>
+     <div class="body">
+    <label class="lb">Number1:</label>
+    <input type="text" id="num" class="inp"><br>
+    <label class="lb">Number2:</label>
+    <input type="text" id="num1" class="inp"><br>
+    <div class="btn">
+    <button onclick="add()">+</button>
+    <button onclick="substraction()">-</button>
+    <button onclick="multiply()">*</button>
+    <button onclick="divide()">/</button><br>
+</div>
+    <label class="lb">Result:</label>
+    <span id="result"></span>
+</div>
+
+    <script src="index.js"></script>
+</body>
+</html>
